@@ -1,5 +1,5 @@
 import './TravelCard.css';
-function DeliveryCard({ item }) {
+function TravelCard({ item }) {
 	return (
 		<article className="travelBlock" style={{ background: item.color }}>
 			<img src={item.image} alt="" className="travelBlock__image" />
@@ -10,4 +10,4 @@ function DeliveryCard({ item }) {
 	);
 }
 
-export default DeliveryCard;
+export default TravelCard;
