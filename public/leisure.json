@@ -1,0 +1,9 @@
+[
+	{
+		"color": "#fefcfb",
+		"images": ["https://picsum.photos/300/200", "https://picsum.photos/80/60"],
+		"category": "Leisure",
+		"title": "Surfing in Maldives",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo aliqua dolor sit amet, consectetur adipiscing elit, seddo aliqua. consectetur adipiscing elit."
+	}
+]
