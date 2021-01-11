@@ -1,0 +1,26 @@
+[
+	{
+		"color": "#2176ff",
+		"image": "https://via.placeholder.com/70",
+		"title": "On-time delivery",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo aliqua."
+	},
+	{
+		"color": "#f4a261",
+		"image": "https://via.placeholder.com/70",
+		"title": "Parcels",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo aliqua."
+	},
+	{
+		"color": "#4cc9f0",
+		"image": "https://via.placeholder.com/70",
+		"title": "Quality check",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo aliqua."
+	},
+	{
+		"color": "#4361ee",
+		"image": "https://via.placeholder.com/70",
+		"title": "Customer service",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo aliqua."
+	}
+]
