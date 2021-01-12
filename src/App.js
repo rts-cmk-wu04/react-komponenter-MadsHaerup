@@ -1,8 +1,12 @@
 import './App.css';
+import Travel from './Travel';
 import Leisure from './Leisure';
-
+import Delivery from './Delivery';
 function App() {
-	return <Leisure />;
+	return (
+  <Travel />
+  <Leisure />
+  <Delivery />
+  );
 }
-
 export default App;
