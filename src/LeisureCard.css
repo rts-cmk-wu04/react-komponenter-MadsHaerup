@@ -1,38 +1,47 @@
 .travelBlocks {
 	display: grid;
 	place-content: center;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+	grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
 	grid-gap: 1.5em;
 	padding: 1em 2em;
 }
 .travelBlock {
 	display: grid;
-	grid-template-rows: 1fr;
+	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	border-radius: 10px;
+	padding: 1em;
+}
+.travelBlock__container {
+	display: grid;
+}
+.travelBlock_imageContainer {
+	display: flex;
+	justify-content: space-between;
 }
 .travelBlock__category {
-	color: #023e8a;
+	place-self: end;
+	background-color: #005aee;
+	color: #fff;
 	margin-bottom: 0;
-	padding-left: 1.3em;
+	padding: 0.6em 1.2em;
+	border-radius: 14px;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 0.7em;
 }
 .travelBlock__image {
-	border-radius: 10px 10px 0 0;
+	border-radius: 10px;
 }
 .travelBlock__title {
 	margin: 0;
-	padding-left: 0.9em;
 	padding-top: 0.6em;
 	padding-bottom: 0.4em;
 }
 .travelBlock__description {
 	font-size: 1em;
-	margin-bottom: 1em;
+
 	margin-top: 0.2em;
-	padding-left: 1em;
-	padding-right: 2em;
+
 	color: #767575;
 }
