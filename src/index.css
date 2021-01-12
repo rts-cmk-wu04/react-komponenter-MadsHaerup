@@ -12,9 +12,12 @@ body {
 .deliveryBlocks {
 	grid-area: delivery;
 }
+.collectionBlocks {
+	grid-area: collection;
+}
 #root {
 	display: grid;
-	grid-template-areas: 'travel leisure' 'delivery delivery';
+	grid-template-areas: 'travel leisure' 'delivery delivery' 'collection collection';
 	grid-template-columns: 1fr 1.5fr;
 	max-width: 1280px;
 	margin: 0 auto;
