@@ -14,7 +14,7 @@ function Leisure() {
 	}, []);
 
 	return (
-		<section className="travelBlocks">
+		<section className="leisureBlocks">
 			{items.map(function (item) {
 				return <LeisureCard key={item.title} item={item} />;
 			})}
