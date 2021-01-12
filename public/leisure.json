@@ -2,13 +2,13 @@
 	{
 		"color": "#fefcfb",
 		"images": [
-			"https://picsum.photos/200/290",
+			"https://picsum.photos/200/300",
 			"https://picsum.photos/60/60",
 			"https://picsum.photos/60/60",
 			"https://picsum.photos/60/60"
 		],
 		"category": "Leisure",
-		"title": "Surfing in Maldives",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo aliqua dolor sit amet, consectetur adipiscing elit, seddo aliqua. consectetur adipiscing elit."
+		"title": "Outdoor Experience",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo aliqua dolor sit amet, consectetur adipiscing elit."
 	}
 ]
