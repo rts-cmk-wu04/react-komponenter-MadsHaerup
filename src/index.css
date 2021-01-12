@@ -1,4 +1,23 @@
 body {
 	margin: 0;
-	background-color: #c0c0c0;
+	background-color: #eaeaea;
+}
+
+.travelBlocks {
+	grid-area: travel;
+}
+.leisureBlocks {
+	grid-area: leisure;
+}
+.deliveryBlocks {
+	grid-area: delivery;
+}
+#root {
+	display: grid;
+	grid-template-areas: 'travel leisure' 'delivery delivery';
+	grid-template-columns: 1fr 1.5fr;
+	max-width: 1280px;
+	margin: 0 auto;
+	margin-top: 2em;
+	row-gap: 2em;
 }
