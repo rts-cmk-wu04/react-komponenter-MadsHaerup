@@ -12,8 +12,8 @@
 		"react-scripts": "4.0.1",
 		"web-vitals": "^0.2.4"
 	},
+	"homepage": "https://rts-cmk-wu04.github.io/react-komponenter-MadsHaerup",
 	"scripts": {
-		"homepage": "https://rts-cmk-wu04.github.io/react-komponenter-MadsHaerup/",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
