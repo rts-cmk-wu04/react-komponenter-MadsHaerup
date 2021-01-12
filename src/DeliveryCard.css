@@ -1,0 +1,28 @@
+.deliveryBlocks {
+	display: grid;
+	place-content: center;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+	grid-gap: 1.5em;
+	padding: 1em 2em;
+}
+.deliveryBlock {
+	display: grid;
+	grid-template-rows: 1fr;
+	align-items: center;
+	border-radius: 10px;
+	padding: 1em 1.5em;
+}
+.deliveryBlock__image {
+	justify-self: end;
+}
+.deliveryBlock__title {
+	text-transform: uppercase;
+	margin-bottom: 0;
+	color: #f8f7ff;
+}
+.deliveryBlock__description {
+	font-size: 1em;
+	margin-bottom: 1em;
+	margin-top: 0.2em;
+	color: #f8f7ff;
+}
