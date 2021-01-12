@@ -1,0 +1,47 @@
+.collectionBlocks {
+	display: flex;
+	justify-content: space-between;
+}
+.collectionBlock {
+	border-radius: 10px;
+	width: 372px;
+	position: relative;
+}
+.collectionBlock__collection {
+	color: #fff;
+	margin-bottom: 0;
+	padding-left: 1.3em;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1.2em;
+	position: absolute;
+	top: 0;
+}
+.collectionBlock__image {
+	border-radius: 10px 10px 0 0;
+	place-self: start;
+}
+.collectionBlock__profileImage {
+	border-radius: 50%;
+	position: absolute;
+	top: 55%;
+	left: 5%;
+}
+.collectionBlock__title {
+	margin: 0;
+	padding-left: 0.9em;
+	margin-top: 2.5em;
+	padding-bottom: 0.4em;
+	text-align: center;
+	font-size: 1.2em;
+}
+.collectionBlock__author {
+	font-size: 0.9em;
+	margin-bottom: 1em;
+	margin-top: 0.2em;
+	padding-left: 1em;
+	padding-right: 2em;
+	line-height: 1.5em;
+	color: #7b8591;
+	text-align: center;
+}

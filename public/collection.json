@@ -1,0 +1,26 @@
+[
+	{
+		"color": "#fff",
+		"image": "https://picsum.photos/372/242",
+		"profileImage": "https://picsum.photos/70",
+		"title": "Off-the-grid experiences",
+		"collection": "COLLECTION #10",
+		"author": "By: Melanie S."
+	},
+	{
+		"color": "#fff",
+		"image": "https://picsum.photos/372/242",
+		"profileImage": "https://picsum.photos/70",
+		"title": "Shapes, triangles & fashion",
+		"collection": "COLLECTION #1",
+		"author": "By: Saraha F."
+	},
+	{
+		"color": "#fff",
+		"image": "https://picsum.photos/372/242",
+		"profileImage": "https://picsum.photos/70",
+		"title": "In-depth architecture",
+		"collection": "COLLECTION #123",
+		"author": "By: Benhour"
+	}
+]
