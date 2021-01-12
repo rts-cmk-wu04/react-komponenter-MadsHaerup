@@ -1,24 +1,21 @@
 .leisureBlocks {
 	display: grid;
 	place-content: center;
-	grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
-	grid-gap: 1.5em;
-	padding: 1em 2em;
 }
 .leisureBlock {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: 1fr 1.3fr;
 	align-items: center;
 	border-radius: 10px;
 	padding: 1.8em;
+	width: 771px;
 }
 .leisureBlock__container {
 	display: grid;
 }
 .leisureBlock_imageContainer {
 	display: flex;
-	justify-content: space-between;
-	margin-top: 0.6em;
+	justify-content: flex-start;
 }
 .leisureBlock__category {
 	place-self: end;
@@ -33,17 +30,18 @@
 }
 .leisureBlock__image {
 	border-radius: 10px;
+	margin-right: 1.5em;
 }
 .leisureBlock__title {
-	font-size: 1.7em;
+	font-size: 3.2em;
 	margin: 0;
-	padding-top: 0.6em;
-	padding-bottom: 0.4em;
+	padding-top: 0.1em;
+	padding-bottom: 0.2em;
 }
 .leisureBlock__description {
 	font-size: 1em;
-
 	margin-top: 0.2em;
-
-	color: #767575;
+	margin-right: 4em;
+	line-height: 1.5em;
+	color: #7b8591;
 }

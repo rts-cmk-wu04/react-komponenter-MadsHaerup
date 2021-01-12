@@ -1,18 +1,12 @@
 .travelBlocks {
 	display: grid;
-	place-content: center;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
-	grid-gap: 1.5em;
-	padding: 1em 2em;
 }
 .travelBlock {
-	display: grid;
-	grid-template-rows: 1fr;
-	align-items: center;
 	border-radius: 10px;
+	width: 372px;
 }
 .travelBlock__category {
-	color: #023e8a;
+	color: #33439b;
 	margin-bottom: 0;
 	padding-left: 1.3em;
 	text-transform: uppercase;
@@ -21,6 +15,7 @@
 }
 .travelBlock__image {
 	border-radius: 10px 10px 0 0;
+	place-self: start;
 }
 .travelBlock__title {
 	margin: 0;
@@ -34,5 +29,6 @@
 	margin-top: 0.2em;
 	padding-left: 1em;
 	padding-right: 2em;
-	color: #767575;
+	line-height: 1.5em;
+	color: #7b8591;
 }
