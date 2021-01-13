@@ -40,6 +40,9 @@ article {
 .greeneryBlocks {
 	grid-area: greenery;
 }
+.beachBlocks {
+	grid-area: beach;
+}
 #root {
 	display: grid;
 	grid-template-areas:
@@ -51,6 +54,8 @@ article {
 		'blocks7 blocks7 news'
 		'archi TL news'
 		'greenery digest .'
+		'beach digest .'
+		'. digest .'
 		'. digest .';
 	grid-template-columns: 1fr 1fr 1fr;
 	max-width: 1280px;

@@ -1,0 +1,31 @@
+.beachBlocks {
+	display: grid;
+}
+.beachBlock {
+	border-radius: 10px;
+	position: relative;
+}
+
+.beachBlock__image {
+	border-radius: 10px;
+	width: 100%;
+	background-size: cover;
+}
+
+.beachBlock__title {
+	margin: 0;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 2em 2em;
+	position: absolute;
+	top: 0;
+}
+.beachBlock__description {
+	font-size: 0.9em;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 1em 3em;
+	color: #fff;
+	position: absolute;
+	top: 30%;
+}
