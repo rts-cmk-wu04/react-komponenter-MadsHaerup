@@ -4,6 +4,7 @@ import Leisure from './Leisure';
 import Delivery from './Delivery';
 import Collection from './Collection';
 import News from './News';
+import Digest from './Digest';
 function App() {
 	return (
 		<>
@@ -12,6 +13,7 @@ function App() {
 			<Delivery />
 			<Collection />
 			<News />
+			<Digest />
 		</>
 	);
 }
