@@ -1,18 +1,18 @@
-.travelLeisureBlocks {
+.greeneryBlocks {
 	display: grid;
 }
-.travelLeisureBlock {
+.greeneryBlock {
 	border-radius: 10px;
 	position: relative;
 }
 
-.travelLeisureBlock__image {
+.greeneryBlock__image {
 	border-radius: 10px;
 	width: 100%;
 	background-size: cover;
 }
 
-.travelLeisureBlock__title {
+.greeneryBlock__title {
 	margin: 0;
 	text-align: center;
 	font-size: 1.2em;
@@ -20,7 +20,7 @@
 	position: absolute;
 	top: 0;
 }
-.travelLeisureBlock__description {
+.greeneryBlock__description {
 	font-size: 0.9em;
 	line-height: 1.5em;
 	margin: 0;
