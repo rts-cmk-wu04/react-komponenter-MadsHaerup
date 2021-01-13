@@ -1,0 +1,27 @@
+.blocks7 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	border-radius: 10px;
+	background-color: #fff;
+}
+.block7 {
+	display: grid;
+	grid-template-columns: auto auto;
+	row-gap: 1em;
+	border-radius: 10px;
+	padding: 1em;
+}
+
+.block7__image {
+	border-radius: 10px;
+	margin-right: 1em;
+}
+.block7__title {
+	margin: 0;
+	margin-top: 0.5em;
+}
+.block7__description {
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #7b8591;
+}
