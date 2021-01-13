@@ -15,10 +15,14 @@ body {
 .collectionBlocks {
 	grid-area: collection;
 }
+.newsBlocks {
+	grid-area: news;
+	place-self: end;
+}
 #root {
 	display: grid;
-	grid-template-areas: 'travel leisure' 'delivery delivery' 'collection collection';
-	grid-template-columns: 1fr 1.5fr;
+	grid-template-areas: 'travel leisure leisure' 'delivery delivery delivery' 'collection collection collection' '. . news';
+	grid-template-columns: 1fr 1fr 1fr;
 	max-width: 1280px;
 	margin: 0 auto;
 	margin-top: 2em;
