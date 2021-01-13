@@ -1,11 +1,12 @@
 .archiBeachBlock {
 	border-radius: 10px;
-	width: 372px;
 	position: relative;
 }
 
 .archiBeachBlock__image {
 	border-radius: 10px;
+	width: 100%;
+	background-size: cover;
 }
 
 .archiBeachBlock__title {

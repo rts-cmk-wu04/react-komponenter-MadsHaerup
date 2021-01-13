@@ -1,10 +1,10 @@
 .collectionBlocks {
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 2em;
 }
 .collectionBlock {
 	border-radius: 10px;
-	width: 372px;
 	position: relative;
 }
 .collectionBlock__collection {
@@ -19,7 +19,8 @@
 }
 .collectionBlock__image {
 	border-radius: 10px 10px 0 0;
-	place-self: start;
+	width: 100%;
+	background-size: cover;
 }
 .collectionBlock__profileImage {
 	border-radius: 50%;

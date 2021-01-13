@@ -2,6 +2,12 @@ body {
 	margin: 0;
 	background-color: #eaeaea;
 }
+article:hover {
+	transform: scale(0.9);
+}
+article {
+	transition-duration: 0.8s;
+}
 
 .travelBlocks {
 	grid-area: travel;
@@ -31,6 +37,9 @@ body {
 .travelLeisureBlocks {
 	grid-area: TL;
 }
+.greeneryBlocks {
+	grid-area: greenery;
+}
 #root {
 	display: grid;
 	grid-template-areas:
@@ -41,10 +50,12 @@ body {
 		'. . news'
 		'blocks7 blocks7 news'
 		'archi TL news'
+		'greenery digest .'
 		'. digest .';
 	grid-template-columns: 1fr 1fr 1fr;
 	max-width: 1280px;
 	margin: 0 auto;
 	margin-top: 2em;
 	row-gap: 2em;
+	column-gap: 2em;
 }
