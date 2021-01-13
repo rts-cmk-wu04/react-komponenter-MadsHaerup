@@ -19,9 +19,12 @@ body {
 	grid-area: news;
 	place-self: end;
 }
+.digestBlocks {
+	grid-area: digest;
+}
 #root {
 	display: grid;
-	grid-template-areas: 'travel leisure leisure' 'delivery delivery delivery' 'collection collection collection' '. . news';
+	grid-template-areas: 'travel leisure leisure' 'delivery delivery delivery' 'collection collection collection' '. . news' '. digest .';
 	grid-template-columns: 1fr 1fr 1fr;
 	max-width: 1280px;
 	margin: 0 auto;
