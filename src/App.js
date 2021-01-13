@@ -6,6 +6,7 @@ import Collection from './Collection';
 import News from './News';
 import Digest from './Digest';
 import Blocks7 from './Block7';
+import ArchiBeach from './ArchiBeach';
 function App() {
 	return (
 		<>
@@ -16,6 +17,7 @@ function App() {
 			<News />
 			<Digest />
 			<Blocks7 />
+			<ArchiBeach />
 		</>
 	);
 }
