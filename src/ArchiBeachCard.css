@@ -1,0 +1,27 @@
+.archiBeachBlock {
+	border-radius: 10px;
+	width: 372px;
+	position: relative;
+}
+
+.archiBeachBlock__image {
+	border-radius: 10px;
+}
+
+.archiBeachBlock__title {
+	margin: 0;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 2em 2em;
+	position: absolute;
+	top: 0;
+}
+.archiBeachBlock__description {
+	font-size: 0.9em;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 1em 3em;
+	color: #fff;
+	position: absolute;
+	top: 30%;
+}
