@@ -7,6 +7,7 @@ import News from './News';
 import Digest from './Digest';
 import Blocks7 from './Block7';
 import ArchiBeach from './ArchiBeach';
+import TravelLeisure from './TravelLeisure';
 function App() {
 	return (
 		<>
@@ -18,6 +19,7 @@ function App() {
 			<Digest />
 			<Blocks7 />
 			<ArchiBeach />
+			<TravelLeisure />
 		</>
 	);
 }
