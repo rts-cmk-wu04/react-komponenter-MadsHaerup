@@ -2,14 +2,13 @@
 	display: grid;
 	border-radius: 10px;
 	background-color: #fff;
-	width: 372px;
 }
 .digestBlock {
 	display: grid;
 	place-content: center;
 	text-align: center;
 	row-gap: 0.5em;
-	margin: 1em 4em;
+	margin: 1em 5em;
 	border-bottom: 1px solid #7b8591;
 }
 .digestBlock:last-child {
