@@ -43,6 +43,9 @@ article {
 .beachBlocks {
 	grid-area: beach;
 }
+.vrBlocks {
+	grid-area: vr;
+}
 #root {
 	display: grid;
 	grid-template-areas:
@@ -55,7 +58,8 @@ article {
 		'archi TL news'
 		'greenery digest .'
 		'beach digest .'
-		'. digest .'
+		'vr digest .'
+		'vr digest .'
 		'. digest .';
 	grid-template-columns: 1fr 1fr 1fr;
 	max-width: 1280px;

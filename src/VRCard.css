@@ -1,0 +1,39 @@
+.vrBlocks {
+	display: grid;
+}
+.vrBlock {
+	border-radius: 10px;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.vrBlock__mark {
+	grid-area: 1/1/-1/-1;
+	justify-self: end;
+	margin-right: 0.5em;
+}
+.vrBlock__image {
+	border-radius: 10px;
+	width: 100%;
+	background-size: cover;
+	grid-area: 1/1/-1/-1;
+	z-index: -1000;
+	height: 100%;
+}
+
+.vrBlock__title {
+	margin: 0;
+	text-align: center;
+	font-size: 1.2em;
+	grid-area: 1/1/-1/-1;
+	margin-top: 1em;
+}
+.vrBlock__description {
+	font-size: 0.9em;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 1em 1.5em;
+	color: #fff;
+	grid-area: 3/1/-1/-1;
+	place-self: end;
+	font-weight: bold;
+}
