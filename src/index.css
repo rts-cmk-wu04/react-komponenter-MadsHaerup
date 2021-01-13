@@ -28,6 +28,9 @@ body {
 .archiBeachBlocks {
 	grid-area: archi;
 }
+.travelLeisureBlocks {
+	grid-area: TL;
+}
 #root {
 	display: grid;
 	grid-template-areas:
@@ -37,7 +40,7 @@ body {
 		'. . news'
 		'. . news'
 		'blocks7 blocks7 news'
-		'archi . news'
+		'archi TL news'
 		'. digest .';
 	grid-template-columns: 1fr 1fr 1fr;
 	max-width: 1280px;
