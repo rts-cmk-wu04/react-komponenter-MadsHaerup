@@ -10,6 +10,7 @@ import ArchiBeach from './ArchiBeach';
 import TravelLeisure from './TravelLeisure';
 import Greenery from './Greenery';
 import Beach from './Beach';
+import VR from './VR';
 function App() {
 	return (
 		<>
@@ -24,6 +25,7 @@ function App() {
 			<TravelLeisure />
 			<Greenery />
 			<Beach />
+			<VR />
 		</>
 	);
 }
