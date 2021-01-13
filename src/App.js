@@ -9,6 +9,7 @@ import Blocks7 from './Block7';
 import ArchiBeach from './ArchiBeach';
 import TravelLeisure from './TravelLeisure';
 import Greenery from './Greenery';
+import Beach from './Beach';
 function App() {
 	return (
 		<>
@@ -22,6 +23,7 @@ function App() {
 			<ArchiBeach />
 			<TravelLeisure />
 			<Greenery />
+			<Beach />
 		</>
 	);
 }
