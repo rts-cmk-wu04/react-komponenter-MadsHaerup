@@ -1,0 +1,46 @@
+.digestBlocks {
+	display: grid;
+	border-radius: 10px;
+	background-color: #fff;
+	width: 372px;
+}
+.digestBlock {
+	display: grid;
+	place-content: center;
+	text-align: center;
+	row-gap: 0.5em;
+	margin: 1em 4em;
+	border-bottom: 1px solid #7b8591;
+}
+.digestBlock:last-child {
+	border-bottom: none;
+}
+.digestBlocks__heading {
+	background-color: #3ca773;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 1em;
+	text-align: center;
+	margin-bottom: 1em;
+	border-radius: 10px 10px 0 0;
+}
+.digestBlock__number {
+	border-radius: 50%;
+	width: 10px;
+	padding: 0.5em 0.7em;
+	place-self: center;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+}
+.digestBlock__title {
+	margin: 0;
+	margin-top: 0.5em;
+	font-weight: 100;
+}
+.digestBlock__description {
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #7b8591;
+}
