@@ -3,6 +3,7 @@ import Travel from './Travel';
 import Leisure from './Leisure';
 import Delivery from './Delivery';
 import Collection from './Collection';
+import News from './News';
 function App() {
 	return (
 		<>
@@ -10,6 +11,7 @@ function App() {
 			<Leisure />
 			<Delivery />
 			<Collection />
+			<News />
 		</>
 	);
 }
