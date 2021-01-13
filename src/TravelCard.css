@@ -3,7 +3,6 @@
 }
 .travelBlock {
 	border-radius: 10px;
-	width: 372px;
 }
 .travelBlock__category {
 	color: #33439b;
@@ -16,6 +15,8 @@
 .travelBlock__image {
 	border-radius: 10px 10px 0 0;
 	place-self: start;
+	width: 100%;
+	background-size: cover;
 }
 .travelBlock__title {
 	margin: 0;

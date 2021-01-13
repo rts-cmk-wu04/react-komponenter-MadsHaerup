@@ -2,11 +2,10 @@
 	display: grid;
 	border-radius: 10px;
 	background-color: #fff;
-	width: 372px;
 }
 .newsBlock {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: auto auto;
 	row-gap: 1em;
 	border-radius: 10px;
 	padding: 1em;
@@ -28,6 +27,7 @@
 
 .newsBlock__image {
 	border-radius: 10px;
+	margin-right: 1em;
 }
 .newsBlock__title {
 	margin: 0;
