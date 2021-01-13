@@ -22,9 +22,19 @@ body {
 .digestBlocks {
 	grid-area: digest;
 }
+.blocks7 {
+	grid-area: blocks7;
+}
 #root {
 	display: grid;
-	grid-template-areas: 'travel leisure leisure' 'delivery delivery delivery' 'collection collection collection' '. . news' '. digest .';
+	grid-template-areas:
+		'travel leisure leisure'
+		'delivery delivery delivery'
+		'collection collection collection'
+		'. . news'
+		'. . news'
+		'blocks7 blocks7 news'
+		'. digest .';
 	grid-template-columns: 1fr 1fr 1fr;
 	max-width: 1280px;
 	margin: 0 auto;
