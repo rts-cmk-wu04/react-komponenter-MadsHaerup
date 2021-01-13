@@ -2,7 +2,7 @@
 	{
 		"color": "#000",
 		"secondaryColor": "#D9A34A",
-		"image": "https://picsum.photos/id/119/372/175",
+		"image": "./img/vr.png",
 		"title": "Virtual Reality",
 		"description": "Technology"
 	}

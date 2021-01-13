@@ -11,6 +11,7 @@ import TravelLeisure from './TravelLeisure';
 import Greenery from './Greenery';
 import Beach from './Beach';
 import VR from './VR';
+import Design from './Design';
 function App() {
 	return (
 		<>
@@ -26,6 +27,7 @@ function App() {
 			<Greenery />
 			<Beach />
 			<VR />
+			<Design />
 		</>
 	);
 }
