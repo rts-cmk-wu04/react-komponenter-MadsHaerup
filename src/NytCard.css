@@ -16,8 +16,9 @@
 .nytBlock__title {
 	margin: 0;
 	font-size: 1.2em;
-	grid-area: 1/5/1/-1;
+	grid-area: 1/4/1/-1;
 	align-self: center;
+	margin-left: 0.5em;
 }
 .nytBlock__description {
 	font-size: 1em;
