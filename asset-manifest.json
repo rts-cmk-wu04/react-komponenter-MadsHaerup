@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-komponenter-MadsHaerup/static/css/main.9ffb5ca7.chunk.css",
+    "main.css": "/react-komponenter-MadsHaerup/static/css/main.83fbbf12.chunk.css",
     "main.js": "/react-komponenter-MadsHaerup/static/js/main.a0d98527.chunk.js",
     "main.js.map": "/react-komponenter-MadsHaerup/static/js/main.a0d98527.chunk.js.map",
     "runtime-main.js": "/react-komponenter-MadsHaerup/static/js/runtime-main.9f0c19d6.js",
@@ -10,13 +10,13 @@
     "static/js/3.e6198c19.chunk.js": "/react-komponenter-MadsHaerup/static/js/3.e6198c19.chunk.js",
     "static/js/3.e6198c19.chunk.js.map": "/react-komponenter-MadsHaerup/static/js/3.e6198c19.chunk.js.map",
     "index.html": "/react-komponenter-MadsHaerup/index.html",
-    "static/css/main.9ffb5ca7.chunk.css.map": "/react-komponenter-MadsHaerup/static/css/main.9ffb5ca7.chunk.css.map",
+    "static/css/main.83fbbf12.chunk.css.map": "/react-komponenter-MadsHaerup/static/css/main.83fbbf12.chunk.css.map",
     "static/js/2.405afe58.chunk.js.LICENSE.txt": "/react-komponenter-MadsHaerup/static/js/2.405afe58.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9f0c19d6.js",
     "static/js/2.405afe58.chunk.js",
-    "static/css/main.9ffb5ca7.chunk.css",
+    "static/css/main.83fbbf12.chunk.css",
     "static/js/main.a0d98527.chunk.js"
   ]
 }
