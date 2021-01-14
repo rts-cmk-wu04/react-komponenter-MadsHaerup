@@ -1,0 +1,9 @@
+.likeBtn {
+	background-color: transparent;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	font-size: 1.5em;
+	outline: none;
+	border: none;
+}
