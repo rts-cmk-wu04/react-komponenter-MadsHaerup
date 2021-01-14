@@ -1,13 +1,13 @@
 [
 	{
 		"color": "#E44385",
-		"image": "https://picsum.photos/id/120/127",
+		"image": "./img/food.png",
 		"title": "Food & Lifestyle",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
 	},
 	{
 		"color": "#0AACDC",
-		"image": "https://picsum.photos/id/169/127",
+		"image": "./img/fashion.png",
 		"title": "Fashion",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam."
 	}

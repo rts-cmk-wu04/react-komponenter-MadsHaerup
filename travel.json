@@ -1,7 +1,7 @@
 [
 	{
 		"color": "#fefcfb",
-		"image": "https://picsum.photos/372/236",
+		"image": "./img/surf.png",
 		"category": "Travel",
 		"title": "Surfing in Maldives",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo aliqua dolor sit amet, consectetur adipiscing elit, seddo aliqua. consectetur adipiscing elit."

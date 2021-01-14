@@ -1,7 +1,7 @@
 [
 	{
 		"color": "#D0E2FF",
-		"image": "https://picsum.photos/id/1029/372/175",
+		"image": "./img/travel.png",
 		"title": "Travel & Leisure",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas."
 	}

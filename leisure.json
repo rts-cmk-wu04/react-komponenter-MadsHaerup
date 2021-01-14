@@ -2,13 +2,13 @@
 	{
 		"color": "#fefcfb",
 		"images": [
-			"https://picsum.photos/293/375",
+			"./img/outdoor.png",
 			"https://picsum.photos/id/202/100",
 			"https://picsum.photos/id/203/100",
 			"https://picsum.photos/id/204/100"
 		],
 		"category": "Leisure",
 		"title": "Outdoor Experience",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo aliqua dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+		"description": "It’s windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside."
 	}
 ]

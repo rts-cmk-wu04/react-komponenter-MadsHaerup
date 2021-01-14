@@ -1,12 +1,12 @@
 [
 	{
 		"color": "#53BBB3",
-		"image": "https://picsum.photos/id/183/70?grayscale",
+		"image": "./img/pen.png",
 		"title": "Design"
 	},
 	{
 		"color": "#358ED7",
-		"image": "https://picsum.photos/70?grayscale",
+		"image": "./img/edu.png",
 		"title": "Education"
 	}
 ]
