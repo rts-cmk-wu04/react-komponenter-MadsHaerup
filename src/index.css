@@ -52,14 +52,17 @@ article {
 .nytBlocks {
 	grid-area: nyt;
 }
+.slider {
+	grid-area: slider;
+}
 #root {
 	display: grid;
 	grid-template-areas:
 		'travel leisure leisure'
 		'delivery delivery delivery'
 		'collection collection collection'
-		'. . news'
-		'. . news'
+		'slider slider news'
+		'slider slider news'
 		'blocks7 blocks7 news'
 		'archi TL news'
 		'greenery digest nyt'
