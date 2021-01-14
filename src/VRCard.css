@@ -1,10 +1,12 @@
 .vrBlocks {
 	display: grid;
+	background-color: #fff;
 }
 .vrBlock {
 	border-radius: 10px;
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 2fr 2fr 2fr;
+	height: 372px;
 }
 .vrBlock__mark {
 	grid-area: 1/1/-1/-1;
@@ -15,20 +17,19 @@
 	border-radius: 10px;
 	width: 100%;
 	background-size: cover;
-	grid-area: 1/1/-1/-1;
-	z-index: -1000;
+	grid-area: 2/1/-1/-1;
 	height: 100%;
 }
 
 .vrBlock__title {
 	margin: 0;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 2em;
 	grid-area: 1/1/-1/-1;
-	margin-top: 1em;
+	margin-top: 0.2em;
 }
 .vrBlock__description {
-	font-size: 0.9em;
+	font-size: 1em;
 	line-height: 1.5em;
 	margin: 0;
 	padding: 1em 1.5em;
@@ -36,4 +37,6 @@
 	grid-area: 3/1/-1/-1;
 	place-self: end;
 	font-weight: bold;
+	letter-spacing: 3px;
+	text-transform: uppercase;
 }

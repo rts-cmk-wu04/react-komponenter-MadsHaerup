@@ -46,6 +46,9 @@ article {
 .vrBlocks {
 	grid-area: vr;
 }
+.designBlocks {
+	grid-area: design;
+}
 #root {
 	display: grid;
 	grid-template-areas:
@@ -60,7 +63,7 @@ article {
 		'beach digest .'
 		'vr digest .'
 		'vr digest .'
-		'. digest .';
+		'design digest .';
 	grid-template-columns: 1fr 1fr 1fr;
 	max-width: 1280px;
 	margin: 0 auto;
