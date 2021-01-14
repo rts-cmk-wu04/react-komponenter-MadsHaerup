@@ -55,6 +55,7 @@ article {
 .slider {
 	grid-area: slider;
 }
+
 #root {
 	display: grid;
 	grid-template-areas:

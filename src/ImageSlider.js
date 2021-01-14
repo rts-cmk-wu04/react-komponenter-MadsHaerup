@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { SliderData } from './ImageSliderData';
 import { CgLoadbar } from 'react-icons/cg';
 import './ImageSlider.css';
+import LikeButton from './LikeBtn';
 
 const ImageSlider = () => {
 	let [current, setCurrent] = useState(0);
@@ -33,6 +34,7 @@ const ImageSlider = () => {
 						{index === current && <p className="slider__author">{slide.author} </p>}
 						{index === current && <h1 className="slider__title">{slide.title} </h1>}
 						{index === current && <p className="slider__description">{slide.description} </p>}
+						<LikeButton />
 					</div>
 				);
 			})}
