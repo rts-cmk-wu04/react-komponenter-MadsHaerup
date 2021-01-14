@@ -1,7 +1,7 @@
 [
 	{
 		"color": "#fff",
-		"image": "https://picsum.photos/id/1022/372/175",
+		"image": "./img/green.png",
 		"title": "Greenery",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas."
 	}

@@ -1,25 +1,25 @@
 [
 	{
 		"color": "#005AEE",
-		"image": "https://picsum.photos/id/183/70?grayscale",
+		"image": "./img/del.png",
 		"title": "On-time delivery",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo aliqua."
 	},
 	{
 		"color": "#FFA767",
-		"image": "https://picsum.photos/70?grayscale",
+		"image": "./img/parcels.png",
 		"title": "Parcels",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo aliqua."
 	},
 	{
 		"color": "#0AACDC",
-		"image": "https://picsum.photos/id/20/70?grayscale",
+		"image": "./img/quality.png",
 		"title": "Quality check",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo aliqua."
 	},
 	{
 		"color": "#597AEF",
-		"image": "https://picsum.photos/id/180/70?grayscale",
+		"image": "./img/service.png",
 		"title": "Customer service",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo aliqua."
 	}
