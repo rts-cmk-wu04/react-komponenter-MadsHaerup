@@ -38,3 +38,15 @@
 	line-height: 1.5em;
 	color: #7b8591;
 }
+.newsBlocks__link {
+	text-transform: uppercase;
+	padding: 1em;
+	border-top: 2px solid lightgray;
+	text-align: center;
+	color: #7b8591;
+	text-decoration: none;
+	display: none;
+}
+.newsBlocks__link:hover {
+	text-decoration: underline;
+}

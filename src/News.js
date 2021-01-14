@@ -19,6 +19,14 @@ function News() {
 			{items.map(function (item) {
 				return <NewsCard key={item.title} item={item} />;
 			})}
+			<a
+				className="newsBlocks__link"
+				target="_blank"
+				rel="noreferrer"
+				href="https://www.nytimes.com/section/todayspaper"
+			>
+				more news
+			</a>
 		</section>
 	);
 }
