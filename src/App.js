@@ -12,6 +12,7 @@ import Greenery from './Greenery';
 import Beach from './Beach';
 import VR from './VR';
 import Design from './Design';
+import Nyt from './Nyt';
 function App() {
 	return (
 		<>
@@ -28,6 +29,7 @@ function App() {
 			<Beach />
 			<VR />
 			<Design />
+			<Nyt />
 		</>
 	);
 }

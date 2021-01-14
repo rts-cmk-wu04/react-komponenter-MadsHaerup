@@ -1,0 +1,17 @@
+[
+	{
+		"color": "#358ed7",
+		"key": "01",
+		"image": "./img/nyt.png",
+		"title": "THE NEW YORK TIMES",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volutpat ex eget elit venenatis, vel luctus arcu pulvinar. "
+	},
+	{
+		"color": "#000",
+		"key": "02",
+		"image": "./img/nyt.png",
+		"bgImage": "./img/nytbg.png",
+		"title": "THE NEW YORK TIMES",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas laoreet ligula, ac elementum risus. Aliquam volutpat ex eget elit venenatis, vel luctus arcu pulvinar. "
+	}
+]
