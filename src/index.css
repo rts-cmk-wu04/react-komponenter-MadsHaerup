@@ -49,6 +49,9 @@ article {
 .designBlocks {
 	grid-area: design;
 }
+.nytBlocks {
+	grid-area: nyt;
+}
 #root {
 	display: grid;
 	grid-template-areas:
@@ -59,11 +62,11 @@ article {
 		'. . news'
 		'blocks7 blocks7 news'
 		'archi TL news'
-		'greenery digest .'
-		'beach digest .'
-		'vr digest .'
-		'vr digest .'
-		'design digest .';
+		'greenery digest nyt'
+		'beach digest nyt'
+		'vr digest nyt'
+		'vr digest nyt'
+		'design digest nyt';
 	grid-template-columns: 1fr 1fr 1fr;
 	max-width: 1280px;
 	margin: 0 auto;

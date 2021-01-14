@@ -1,9 +1,9 @@
 .vrBlocks {
 	display: grid;
 	background-color: #fff;
+	border-radius: 10px;
 }
 .vrBlock {
-	border-radius: 10px;
 	display: grid;
 	grid-template-rows: 1fr 2fr 2fr 2fr;
 	height: 372px;

@@ -1,0 +1,40 @@
+.nytBlocks {
+	display: grid;
+	grid-gap: 2em;
+}
+.nytBlock {
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.nytBlock__image {
+	border-radius: 50%;
+	grid-area: 1/3/1/3;
+	align-self: center;
+}
+.nytBlock__title {
+	margin: 0;
+	font-size: 1.2em;
+	grid-area: 1/5/1/-1;
+	align-self: center;
+}
+.nytBlock__description {
+	font-size: 1em;
+	line-height: 1.7em;
+	color: #000;
+	grid-area: 2/3/3/11;
+}
+.nytBlock__btn {
+	border-radius: 30px;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: 1px solid grey;
+	grid-area: 3/3/4/-1;
+	width: 141px;
+	height: 50px;
+	align-self: center;
+}
+.nytBlock:first-child {
+	background-color: #fff;
+}
