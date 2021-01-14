@@ -1,0 +1,23 @@
+.designBlocks {
+	display: grid;
+	place-content: center;
+	grid-gap: 1.5em;
+	grid-template-columns: repeat(2, 1fr);
+}
+.designBlock {
+	display: grid;
+	grid-template-rows: 1fr;
+	align-items: center;
+	border-radius: 10px;
+	padding: 1em 1.5em;
+	place-content: center;
+}
+.designBlock__image {
+	place-self: center;
+	border-radius: 10px;
+}
+.designBlock__title {
+	text-transform: uppercase;
+	margin-bottom: 0;
+	color: #f8f7ff;
+}
