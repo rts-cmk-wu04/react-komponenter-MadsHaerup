@@ -13,6 +13,7 @@ import Beach from './Beach';
 import VR from './VR';
 import Design from './Design';
 import Nyt from './Nyt';
+import ImageSlider from './ImageSlider';
 function App() {
 	return (
 		<>
@@ -30,6 +31,7 @@ function App() {
 			<VR />
 			<Design />
 			<Nyt />
+			<ImageSlider />;
 		</>
 	);
 }
